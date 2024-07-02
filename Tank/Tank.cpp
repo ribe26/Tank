@@ -11,8 +11,8 @@ Tank::Tank(Game* in_game)
 	, Vy(0.0f)
 	, head_omega(0.0f)
 	,body_omega(0.0f)
-	, x(0.0f)
-	, y(0.0f)
+	, x(100.0f)
+	, y(100.0f)
 	,rotation(0.0f)
 {
 	body = new Sprite_component(this, 10);

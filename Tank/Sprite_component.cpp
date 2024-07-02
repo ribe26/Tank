@@ -35,18 +35,7 @@ void Sprite_component::draw(SDL_Renderer* renderer) {
 		SDL_RenderCopyEx(renderer, texture, nullptr, &rect,
 			-rotation, nullptr, SDL_FLIP_NONE);
 	}
-
-	//delte later
-	/*
-	SDL_Rect ball{
-		static_cast<int>(owner_obj->get_x()-5),
-		static_cast<int>(owner_obj->get_y()-5),
-		10,
-		10
-	};
-	SDL_RenderFillRect(renderer, &ball);
-	*/
-	}
+}
 
 void Sprite_component::setTexture(SDL_Texture* in_texture){
 	texture = in_texture;

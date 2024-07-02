@@ -43,11 +43,6 @@ private:
 	std::vector<class Sprite_component*> sprites;
 
 	std::unordered_map<std::string, SDL_Texture*> loaded_textures;
-	/*
-
-	class Tank* mytank;
-	*/
-
 
 
 };
